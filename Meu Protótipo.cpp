@@ -128,6 +128,7 @@ setlocale(LC_ALL,"Portuguese");
    printf("\t1 - Registrar nomes\n");
    printf("\t2 - Consultar nomes\n");
    printf("\t3 - Deletar nomes\n"); 
+   printf("\t4 - Saída do sistema\n");
    printf("Opção:");
    
    scanf("%d", &opcao);
@@ -150,6 +151,11 @@ setlocale(LC_ALL,"Portuguese");
         case 3:
    	    printf("Você escolheu deletar nomes\n");
    	    system("pause");
+   	    break;
+   	    
+   	    case 4:
+   	    printf("Até a próxima");
+   	    return 0;
    	    break;
    	
    	
